@@ -1,0 +1,82 @@
+@font-face {
+    font-family: "Righteous-Regular";
+    src: url("../fonts/Righteous-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url("../fonts/Poppins-Regular.ttf");
+}
+
+h1 {
+    font-family: "Righteous-Regular";
+    text-shadow: 1px 1px 2px black
+}
+
+h1:hover {
+    color:#ad5533;
+    text-shadow: 1px 1px 2px white;
+}
+
+body {
+    padding: 2rem;
+    background-color: #397144;
+    font-family: "Poppins-Regular";
+}
+
+.content {
+    color: white;
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+}
+
+.content > div > section {
+    border: 2px white solid;
+    background-color: #ad5533;
+}
+
+.box {
+    height: 10rem;
+}
+
+.img-vertical {
+    background-size: cover;
+    height: 20rem;
+    width: 30%;
+}
+
+.img-1 {
+    background-image: url("https://github.com/neildan/nextu.tennis.club/blob/main/img/woman-1.jpg?raw=true");
+    color: #ffffff00;
+}
+
+.img-2 {
+    background-image: url("https://github.com/neildan/nextu.tennis.club/blob/main/img/woman-2.jpg?raw=true");
+    color: #ffffff00;
+}
+
+.img-tenis {
+    background-image: url("https://github.com/neildan/nextu.tennis.club/blob/main/img/tennis-1.jpg?raw=true");
+    background-size: cover;
+}
+
+.img-tenis-2 {
+    background-image: url("https://github.com/neildan/nextu.tennis.club/blob/main/img/tennis-2.jpg?raw=true");
+    background-size: cover;
+    background-position: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td {
+    border: white 2px solid;
+    padding: 0px;
+}
+
+.change-background-color:hover {
+    background: linear-gradient(180deg, rgba(173,85,51,1) 0%, rgba(213,104,62,1) 50%, rgba(236,118,72,1) 100%);
+}
